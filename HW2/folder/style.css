@@ -1,19 +1,19 @@
 a { text-decoration: none; }
 
-.linkstyle{
+.link{
     color: cornflowerblue;
     font-size: 16px;
     line-height: 20px;
 }
 
-.headingstyle{
+.heading{
     color: #222222;
     font-size: 28px;
     line-height: 36px;
     font-weight: bold;
 }
 
-.paragraphstyle{
+.paragraph{
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -21,7 +21,7 @@ a { text-decoration: none; }
     color: #7D7987;
 }
 
-.headingstyle2{
+.heading2{
     color: coral;
     font-style: normal;
     font-weight: 700;
