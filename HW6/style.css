@@ -1,0 +1,267 @@
+*{
+    padding: 0;  
+    margin: 0;
+}
+
+body{
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+ 
+a{
+    text-decoration: none;
+}
+ 
+
+
+.center{
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+
+}
+
+
+/* header */
+
+.header {
+    height: 75px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: flex-start;
+    gap: 41px;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 33px;
+    padding-right: 12px;
+}
+
+
+/* top content  */
+
+.top_content{
+    background: #F1E4E6;
+    display: flex;   
+    align-items: center;     
+    gap: 64px; 
+    
+
+}
+
+.top_image{
+    max-width: 100%;    
+}
+
+.top__slogan{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.top_stick{ 
+    margin-right: 16px;
+    
+}
+
+.top_text{
+    display: flex;
+    flex-direction: column;
+    padding: 5.5% 0px 0px 0px;
+} 
+
+
+.top__title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+   
+    
+    
+}
+
+.top__subtitle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: px;
+    line-height: 58px;
+    
+   
+}
+
+.subtitle_color{
+    color: #F16D7F;
+}
+
+
+/* offer section */
+
+.content__offer{
+    display: grid;
+    grid-template-columns: repeat (3, 360px);
+    grid-template-rows: 260px 180px;
+    gap:30px;   
+    margin: 65px 0px 0px 0px;
+    
+
+}
+
+.offer__item{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  
+} 
+
+.offer__item:nth-child(1) {
+    background-image: url('img/offer_pic1.svg');
+}
+
+.offer__item:nth-child(2) {
+    background-image: url('img/offer_pic2.svg');
+}
+
+.offer__item:nth-child(3) {
+    background-image: url('img/offer_pic3.svg');
+}
+
+.offer__item:nth-child(4) {
+    background-image: url('img/offer_pic4.svg');
+    grid-column: 1/4;
+    
+}
+
+.offer__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.offer__subtitle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #F16D7F;
+    
+}
+
+/* products section */
+
+.content__products {
+    display: grid;
+    justify-content: center;
+    margin: 96px 0px 0px 0px; 
+     
+}
+
+.products__title{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    justify-self: center;
+    margin: 0px 0px 6px 0px;
+
+}
+
+.products__text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    justify-self: center;
+    margin: 0px 0px 48px 0px;
+}
+
+.products__items{
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: repeat(2, 581px);
+    gap: 30px;
+   
+   
+}
+
+.product__item{
+    display: grid;
+	background: #F8F8F8;
+ 
+   
+}
+
+.products__image{
+    position: relative;
+    margin: 0px 0px 25px 0px;
+}
+
+.products__name{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    padding-left: 18px;
+    margin: 0px 0px 13px 0px;    
+    
+}
+
+.products__description{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding-left: 18px; 
+    padding-right: 29px; 
+    
+    margin: 0px 0px 18px 0px; 
+   
+
+}
+
+.products__price{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F; 
+    padding-left: 18px;
+    margin: 0px 0px 20px 0px;   
+}
+
+.products__button{
+    display:grid;
+    justify-content: center;
+    align-content: center;   
+    margin: 49px 0px 60px 0px; 
+    
+ 
+  
+}
+
+.button-browse{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    border: 1px solid #FF6A6A;
+    padding: 15px 39px 14px 39px;
+    text-decoration: none;
+    background: none;
+    cursor: pointer;
+    
+} 
