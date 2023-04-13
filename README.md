@@ -153,4 +153,4 @@ https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Land
 
 2. Проверить сайт на ошибки.
 
-3. * Разместить сайт в сети интернет.
+3. \*\ Разместить сайт в сети интернет.
